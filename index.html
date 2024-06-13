@@ -4,8 +4,12 @@
         <title>SimpleIdle</title>
 
     </head>
-    <body>
-
+    <body onLoad="checkPoints()">
+        <span id="points">0</span>
+        <button id="mainClicker" onClick="pointClick(1)">Click Me For Points!</button>
+        <button id="buyClicker" onClick="buyClick()">Buy Me!</button>
+        Clickers: <span id="clickers">0</span> 
+        Cost: <span id="clickerCost">10</span>
         <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
